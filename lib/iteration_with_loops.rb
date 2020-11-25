@@ -11,9 +11,9 @@ def join_nested_strings(src)
       if src[row_index][element_index].class == String
       string = src[row_index][element_index]
     end
-      string_array << string
       element_index +=1
     end
+    string_array << string
     row_index +=1
   end
   string_array.join(" ")
