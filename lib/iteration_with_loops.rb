@@ -19,5 +19,6 @@ def join_nested_strings(src)
     end
     row_index +=1
   end
+  string_array.join
 end
 
