@@ -10,10 +10,10 @@ def join_nested_strings(src)
        string = ""
       if src[row_index][element_index].class == String
       string = src[row_index][element_index]
+      string_array << string
     end
       element_index +=1
     end
-    string_array << string
     row_index +=1
   end
   string_array.join(" ")
