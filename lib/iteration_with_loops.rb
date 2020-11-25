@@ -19,15 +19,4 @@ def join_nested_strings(src)
     end
     row_index +=1
   end
-
-  
-    sentence = ""
-
-row_index = 0
-while row_index < string_array.count do
-    string_array[row_index]
-    sentence += string_array[row_index]
-  row_index += 1
 end
-return sentence
-end 
