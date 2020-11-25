@@ -19,12 +19,7 @@ def join_nested_strings(src)
     end
     row_index +=1
   end
-  
-  string_array.delete_at(1)
-  string_array.delete_at(2)
-  string_array.delete_at(4)
-  string_array.delete_at(5)
-  string_array.delete_at(7)
+
   
     sentence = ""
 
